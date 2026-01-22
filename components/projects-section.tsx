@@ -189,7 +189,19 @@ export default function ProjectsSection() {
         "Remove key words from the cards texts so the user can select the corret ones",
       ],
     },
-
+        {
+      id: 11,
+      title: "Ruby API boilerplate",
+      description: "A api boilerplate built with ruby on rails",
+      image: "/ruby.png?height=300&width=500",
+      category: "web",
+      tags: ["Ruby"],
+      link: "https://github.com/KenjiXsS/API_Ruby",
+      github: "https://github.com/KenjiXsS/API_Ruby",
+      details: [
+        "Boilerplate for ruby on rails APIs",
+      ],
+    },
   ]
 
   const filteredProjects =

@@ -93,7 +93,7 @@ export default function ContactSection() {
                 <h3 className="text-xl font-semibold text-white mb-4">Connect</h3>
                 <div className="flex space-x-4">
                   <motion.a
-                    href="https://github.com/Kenjibercysec"
+                    href="https://github.com/KenjiXsS"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-red-600/10 flex items-center justify-center text-red-600 hover:bg-red-600/20 transition-colors"
@@ -103,7 +103,7 @@ export default function ContactSection() {
                     <Github className="w-5 h-5" />
                   </motion.a>
                   <motion.a
-                    href="https://www.linkedin.com/in/silas-kenji-81587318a/"
+                    href="https://www.linkedin.com/in/kenji-otsuka/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-red-600/10 flex items-center justify-center text-red-600 hover:bg-red-600/20 transition-colors"
@@ -113,7 +113,7 @@ export default function ContactSection() {
                     <Linkedin className="w-5 h-5" />
                   </motion.a>
                   <motion.a
-                    href="https://x.com/Kenji_theDev"
+                    href="https://x.com/Kenji_XsS_"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-red-600/10 flex items-center justify-center text-red-600 hover:bg-red-600/20 transition-colors"
