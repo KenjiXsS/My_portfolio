@@ -122,7 +122,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 40,
     rating: 4.6
-  }
+  },
   {
     id: "HTB-MonitorsFour",
     title: "MonitorsFour",
@@ -136,7 +136,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 60,
     rating: 4.8
-  }
+  },
   {
     id: "HTB-NanoCorp",
     title: "NanoCorp",
@@ -150,7 +150,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 70,
     rating: 4.9
-  }
+  },
   {
     id: "HTB-Fries",
     title: "Fries",
@@ -164,7 +164,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 70,
     rating: 4.9
-  }
+  },
   {
     id: "HTB-Eloquia",
     title: "Eloquia",
@@ -178,7 +178,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 65,
     rating: 4.8
-  }
+  },
   {
     id: "HTB-Eighteen",
     title: "Eighteen",
@@ -192,8 +192,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 50,
     rating: 4.6
-  }
-
+  },
 ]
 
 const categories = [
