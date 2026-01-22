@@ -109,6 +109,49 @@ const writeups: Writeup[] = [
     points: 50,
     rating: 4.7
   }
+  {
+    id: "HTB-Gavel",
+    title: "Gavel",
+    description: "Credential reuse, insecure SUID binary and PHP config abuse leading to root compromise.",
+    category: "CTF",
+    difficulty: "Medium",
+    platform: "HackTheBox",
+    date: "2025-07-24",
+    tags: ["web", "linux", "privesc", "php", "suid"],
+    githubUrl: "https://github.com/Kenjibercysec/WriteUps/blob/main/HackTheBox/gavel_writeup.md",
+    solved: true,
+    points: 40,
+    rating: 4.6
+  }
+  {
+    id: "HTB-MonitorsFour",
+    title: "MonitorsFour",
+    description: "IDOR, credential reuse, authenticated Cacti RCE and Docker API abuse leading to full host compromise.",
+    category: "CTF",
+    difficulty: "Hard",
+    platform: "HackTheBox",
+    date: "2025-07-26",
+    tags: ["web", "linux", "docker", "idor", "cve", "cacti"],
+    githubUrl: "https://github.com/Kenjibercysec/WriteUps/blob/main/HackTheBox/monitorsfour_writeup.md",
+    solved: true,
+    points: 60,
+    rating: 4.8
+  }
+  {
+    id: "HTB-NanoCorp",
+    title: "NanoCorp",
+    description: "Active Directory compromise via DNS poisoning, NTLM relay, Kerberos abuse and WinRM access.",
+    category: "CTF",
+    difficulty: "Hard",
+    platform: "HackTheBox",
+    date: "2025-07-28",
+    tags: ["active-directory", "windows", "ntlm", "kerberos", "winrm", "red-team"],
+    githubUrl: "https://github.com/Kenjibercysec/WriteUps/blob/main/HackTheBox/nanocorp_writeup.md",
+    solved: true,
+    points: 70,
+    rating: 4.9
+  }
+
 ]
 
 const categories = [
