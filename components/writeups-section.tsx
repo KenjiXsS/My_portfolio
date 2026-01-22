@@ -151,6 +151,48 @@ const writeups: Writeup[] = [
     points: 70,
     rating: 4.9
   }
+  {
+    id: "HTB-Fries",
+    title: "Fries",
+    description: "pgAdmin authenticated RCE followed by AD CS abuse (ESC6 + ESC16) to obtain Domain Admin access.",
+    category: "CTF",
+    difficulty: "Hard",
+    platform: "HackTheBox",
+    date: "2025-07-30",
+    tags: ["active-directory", "adcs", "windows", "certificate-abuse", "linux", "red-team"],
+    githubUrl: "https://github.com/Kenjibercysec/WriteUps/blob/main/HackTheBox/fries_writeup.md",
+    solved: true,
+    points: 70,
+    rating: 4.9
+  }
+  {
+    id: "HTB-Eloquia",
+    title: "Eloquia",
+    description: "OAuth CSRF leading to admin takeover, DLL upload abuse, SQLite extension execution and binary hijacking.",
+    category: "CTF",
+    difficulty: "Hard",
+    platform: "HackTheBox",
+    date: "2025-08-01",
+    tags: ["web", "oauth", "csrf", "windows", "dll-hijacking", "winrm"],
+    githubUrl: "https://github.com/Kenjibercysec/WriteUps/blob/main/HackTheBox/eloquia-writeup.md",
+    solved: true,
+    points: 65,
+    rating: 4.8
+  }
+  {
+    id: "HTB-Eighteen",
+    title: "Eighteen",
+    description: "SQL Server credential abuse, password reuse and BadSuccessor AD exploitation to gain Domain Admin.",
+    category: "CTF",
+    difficulty: "Medium",
+    platform: "HackTheBox",
+    date: "2025-08-03",
+    tags: ["windows", "active-directory", "sql-server", "kerberos", "privilege-escalation"],
+    githubUrl: "https://github.com/Kenjibercysec/WriteUps/blob/main/HackTheBox/eighteen_writeup.md",
+    solved: true,
+    points: 50,
+    rating: 4.6
+  }
 
 ]
 
