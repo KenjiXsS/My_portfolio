@@ -108,7 +108,7 @@ const writeups: Writeup[] = [
     solved: true,
     points: 50,
     rating: 4.7
-  }
+  },
   {
     id: "HTB-Gavel",
     title: "Gavel",
