@@ -6,12 +6,12 @@ import remarkGfm from "remark-gfm"
 import { motion } from "framer-motion"
 import { Upload, FileDown } from "lucide-react"
 
-import Navbar from "@/components/navbar"
-import ParticleBackground from "@/components/particle-background"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+import Navbar from "../components/navbar"
+import ParticleBackground from "../components/particle-background"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "../components/ui/card"
+import { Button } from "../components/ui/button"
+import { Input } from "../components/ui/input"
+import { Textarea } from "../components/ui/textarea"
 
 function slugify(value: string) {
   const base = value
