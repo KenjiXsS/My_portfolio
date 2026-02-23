@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Shield, Lock, Code, Server, Database, Wifi, Bug, FileCode, AlertTriangle, Key, ChevronRight, X } from "lucide-react"
 import { useState } from "react"
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 
 export default function SkillsSection() {
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null)
